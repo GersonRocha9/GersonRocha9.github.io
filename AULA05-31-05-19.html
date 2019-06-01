@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>AULA 05 - 31/05/2019</title>
+  </head>
+
+  <body>
+
+    <!--EXEMPLO DE BUSCADOR LIKE GOOGLE -->
+
+  <form action="https://www.google.com.br/search" method="get">
+
+   	Pesquisar:
+
+ 	<input type="text" name="q" size="30">
+
+    <input type="submit" value="Buscar">
+    <input type="reset" value="Limpar">  	
+
+    <br><br>
+
+  <!--ESTUDO DE RADIO e CHECKBOX -->
+
+    <b>Você deseja trabalhar como Webmaster?</b>
+    <br>
+    <input type="radio" id="sim" name="resposta" value="sim"> <label for="sim">Sim</label><br>
+    <input type="radio" id="nao" name="resposta" value="nao"> <label for="nao">Não</label><br>
+    <input type="radio" id="talvez" name="resposta" value="talvez"> <label for="talvez">Talvez</label><br>
+    <input type="radio" id="quemsabe" name="resposta" value="quemsabe"> <label for="quemsabe">Quem sabe</label><br>
+
+    <br><br>
+    <b>O que você deseja aprender?</b>
+    <br>
+    <input type="checkbox" name="resposta" value="html"> HTML<br>
+    <input type="checkbox" name="resposta" value="css"> CSS<br>
+    <input type="checkbox" name="resposta" value="javascript"> JavaScript<br>
+    <input type="checkbox" name="resposta" value="php"> PHP<br>
+
+  <br><br>
+  <!--ESTUDO DE FIELDSET E LEGEND -->
+    <fieldset>
+      <legend>
+        Informações Pessoais:
+      </legend>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome"><br>   
+      <label for="email">Email:</label>
+      <input type="text" id="email">
+    </fieldset>
+
+  <br><br>
+
+    <select name="diadePagamento" size="10" multiple="multiple">
+      <optgroup label="MELHOR TIME DE FUTEBOL">
+        <option value="RM">Real Madrid</option>
+        <option value="FCB">Barcelona</option>
+        <option value="FLA">Flamengo</option>
+      </optgroup>
+      <optgroup label="MELHOR TIME DA NBA">
+        <option value="LAL">Lakers</option>
+        <option value="BOS">Celtics</option>
+        <option value="TOR">Raptors</option>
+      </optgroup>
+      <optgroup label="MELHOR TIME DA NFL">
+        <option value="NEP">Patriots</option>
+        <option value="LAR">Rams</option>
+        <option value="KCS">Chiefs</option>
+      </optgroup>
+    </select>
+    <br><br>
+    <!-- TEXT AREA -->
+    <textarea rows="10" cols="40" maxlength="500">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula mattis sodales. Nam at elit dui. Aenean quis dapibus sem. Cras non ex pulvinar, commodo leo id, ullamcorper elit. Curabitur posuere ullamcorper risus et accumsan. Sed consequat, libero ut vulputate auctor, elit eros mattis urna, eu varius sem metus luctus quam. In tempor velit ac scelerisque bibendum. Proin ultricies eleifend placerat. Nullam ac ligula rhoncus, scelerisque lectus id, scelerisque tellus. Donec tristique diam vel erat posuere, vel tempor neque pharetra. Proin auctor massa sit amet quam iaculis suscipit. Nulla ac nibh sit amet enim molestie tempus at viverra ante.
+    </textarea>
+
+    <br><br>
+    <!-- INSERÇÃO DE ARQUIVOS -->
+    <input type="file">
+    <br><br>
+    <!-- TESTES DE INPUTS -->    
+    <input type="date">
+    <br><br>
+    <input type="number">
+    <br><br>
+    <input type="url">
+    <br><br>
+    <input type="color">
+    <br><br>
+    <input type="Range">
+    <br><br>
+    <input type="datetime-local">
+
+  </form>
+
+  </body>
+  
+</html>
