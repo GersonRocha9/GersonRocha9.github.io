@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang=pt-br dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Atividade Form</title>
+  </head>
+  <body>
+    <h1>Aulas de Hipermidias</h1>
+    <h3>Preencha o formulário abaixo</h3>
+
+    <form>
+      <fieldset>
+        <legend>Dados Pessoais:</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome"><br><br>
+        <label for="datanasc">Nascimento:</label>
+        <input type="date"><br><br>
+        <label for="rg">RG:</label>
+        <input type="number" size="9"><br><br>
+        <label for="cpf">CPF:</label>
+        <input type="number" size="9"> - <input type="number" size="2">
+      </fieldset>
+      <br><br>
+      <fieldset>
+        <legend>Dados de Endereço</legend>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua">
+        <label for="num">Numero:</label>
+        <input type="number" size="5"><br><br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro"><br><br>
+        <label for="estado">Estado:</label>
+        <select name="estados-brasil">
+          	<option value="AC">Acre</option>
+          	<option value="AL">Alagoas</option>
+          	<option value="AP">Amapá</option>
+          	<option value="AM">Amazonas</option>
+          	<option value="BA">Bahia</option>
+          	<option value="CE">Ceará</option>
+          	<option value="DF">Distrito Federal</option>
+          	<option value="ES">Espírito Santo</option>
+          	<option value="GO">Goiás</option>
+          	<option value="MA">Maranhão</option>
+          	<option value="MT">Mato Grosso</option>
+          	<option value="MS">Mato Grosso do Sul</option>
+          	<option value="MG">Minas Gerais</option>
+          	<option value="PA">Pará</option>
+          	<option value="PB">Paraíba</option>
+          	<option value="PR">Paraná</option>
+          	<option value="PE">Pernambuco</option>
+          	<option value="PI">Piauí</option>
+          	<option value="RJ">Rio de Janeiro</option>
+          	<option value="RN">Rio Grande do Norte</option>
+          	<option value="RS">Rio Grande do Sul</option>
+          	<option value="RO">Rondônia</option>
+          	<option value="RR">Roraima</option>
+          	<option value="SC">Santa Catarina</option>
+          	<option value="SP">São Paulo</option>
+          	<option value="SE">Sergipe</option>
+          	<option value="TO">Tocantins</option>
+          </select>
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade"><br><br>
+          <label for="cep">CEP:</label>
+          <input type="number" size="5"> - <input type="number" size="3"><br>
+      </fieldset>
+      <br><br>
+      <fieldset>
+        <legend>Dados de login</legend>
+        <label for="email">E-mail</label>
+        <input type="email"><br><br>
+        <label for="imgprofile">Imagem de perfil:</label>
+        <input type="file"><br><br>
+        <label for="login">Login de usuário:</label>
+        <input type="text" id="login"><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha"><br><br>
+        <label for="senha">Confirme a senha:</label>
+        <input type="password" id="senha"><br><br>
+      </fieldset>
+      <br><br>
+      <fieldset>
+        <legend>Pesquisa de Interesse:</legend>
+        <label for="titulo"><b>Você deseja trabalhar como Webmaster?</b></label>
+        <input type="radio" id="sim" name="resposta" value="sim"> <label for="sim">Sim</label>
+        <input type="radio" id="nao" name="resposta" value="nao"> <label for="nao">Não</label>
+        <input type="radio" id="talvez" name="resposta" value="talvez"> <label for="talvez">Talvez</label>
+        <input type="radio" id="quemsabe" name="resposta" value="quemsabe"> <label for="quemsabe">Quem sabe</label>
+        <br><br>
+        <label for="titulo"><b>O que você deseja aprender?</b></label>
+        <input type="checkbox" name="resposta" value="html"> HTML
+        <input type="checkbox" name="resposta" value="css"> CSS
+        <input type="checkbox" name="resposta" value="javascript"> JavaScript
+        <input type="checkbox" name="resposta" value="php"> PHP
+        <br><br>
+        <label for="comments">Deixe seu comentário:</label>
+        <textarea rows="10" cols="40" maxlength="500">
+
+        </textarea>
+      </fieldset>
+      <br><br>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+
+    </form>
+  </body>
+</html>
