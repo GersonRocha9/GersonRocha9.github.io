@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fotos de Acordo com o tamanho de tela</title>
+  </head>
+  <body>
+
+    <h1>Fotos de acordo com o tamanho de tela</h1>
+
+    <picture>
+      <source media="print" srcset="lakers-medio.jpg">
+      <source media="(max-width: 480px)" srcset="lakers-small.jpg">
+      <source media="(max-width: 640px)" srcset="lakers-medio.jpg">
+      <source media="(max-width: 1024px)" srcset="lakers-big.jpeg">
+      <img src="lakers-big.jpeg" alt="LA Lakers">
+    </picture>
+
+  </body>
+</html>
