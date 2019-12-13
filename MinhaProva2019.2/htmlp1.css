@@ -1,0 +1,339 @@
+/*Configuração de tamanho e margem para a classe espaçamento*/
+.espaçamento{
+  width: 90%;
+  margin-left: 5%;
+}
+
+/*Configuração de cor da letra para o elemento "a"*/
+a{
+  color: black;
+}
+
+/*Configuração de modo de exibição das classes headerimg, listameio e listadireita */
+.headerimg, .listameio, .listadireita{
+  display: inline-block;
+}
+
+/*Configuração do modo de exibição para as listas das classes listameio e listadireita*/
+.listameio ul li, .listadireita ul li{
+  display: inline;
+}
+
+/*Configuração de tamanho da classe headerimg*/
+.headerimg img{
+  width: 300px;
+  height: 200px;
+}
+
+/*Configuração da classe listadireita como elemento flutuante a direita*/
+.listadireita{
+  float: right;
+}
+
+/*Configuração de tamanho das bordas das listas da classe listadireita */
+.listadireita li{
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+/*Configuração da margem da classe listameio*/
+.listameio{
+  margin-left: 200px;
+}
+
+/*Configuração de tamanho das bordas das listas da classe listameio */
+.listameio li{
+  border: 2px solid black;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+/*Configuração da classe listameio para nenhuma decoração de texto*/
+.listameio a{
+  text-decoration: none;
+}
+
+/*Configuração da classe pesquisa como elemento flutuante a direita*/
+.pesquisa{
+  float: right;
+}
+
+/*Configuração da classe adv como elemento flutuante a direita*/
+.adv{
+  float: right;
+}
+
+/*Configuração do tamanho da sombra do botão*/
+button{
+  box-shadow: 2px 2px 2px;
+}
+
+/*Configuração das margens da classe pesquisa*/
+.pesquisa button, .pesquisa input{
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+/*Configuração do tamanho da imagem do artigo*/
+article img{
+  width: 100px;
+  height: 100px;
+}
+
+/*Configuração de modo de exibição do section e aside */
+section, aside{
+  display: inline-block;
+}
+
+/*Configuração da largura do section*/
+section{
+  width: 26%
+}
+
+/*Configuração da largura da classe meio */
+.meio{
+  width: 47%;
+}
+
+/*Configuração da largura e flutuação a direita da classe direito*/
+.direito{
+  float: right;
+  width: 26%;
+}
+
+/*Configuração da flutuação a esquerda do section*/
+section{
+  float: left;
+}
+
+/*Configuração do tamanho e bordas da imagem da section*/
+section img{
+  width: 320px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+/*Configuração da margem das listas da classe listasection1*/
+.listasection1 ul{
+  margin-left: -30px;
+}
+
+/*Configuração da borda, espaçamento, largura e margem da classe listasection1*/
+.listasection1 li{
+  border: 2px solid black;
+  padding-left: 5px;
+  list-style: none;
+  width: 300px;
+  margin-top: 10px;
+}
+
+/*Configuração da classe listasection1 para nenhuma decoração de texto*/
+.listasection1 a{
+  text-decoration: none;
+}
+
+/*Configuração de borda, largura e cor de fundo da classe listasection2*/
+.listasection2{
+  border: 2px solid black;
+  background-color: lightgray;
+  width: 320px;
+}
+
+/*Configuração da margem da classe listasection2*/
+.listasection2 ul{
+  margin-left: -30px;
+}
+
+/*Configuração de nenhum estilo de lista para a classe listasection2*/
+.listasection2 li{
+  list-style: none;
+}
+
+/*Configuração da classe listasection2 para nenhuma decoração de texto*/
+.listasection2 a{
+  text-decoration: none;
+}
+
+/*Configuração de borda, cor de fundo e altura para a classe whatsnew*/
+.whatsnew{
+  border: 2px solid black;
+  background-color: lightgray;
+  height: 300px;
+}
+
+/*Configuração de modo de exibição das classes whatsnewleft e whatsnewright */
+.whatsnewleft, .whatsnewright{
+  display: inline-block;
+}
+
+/*Configuração de largura e espaçamento para a classe whatsnewleft*/
+.whatsnewleft{
+  width: 20%;
+  padding-left: 20px;
+}
+
+</*Configuração de largura da classe whatsnewright*/
+.whatsnewright{
+  width: 70%;
+}
+
+/*Configuração de flutuação da classe morenews*/
+.morenews{
+  float: right;
+}
+
+/*Configuração de fonte para negrito para a classe whatsnewright*/
+.whatsnewright a{
+  font-weight: bold;
+}
+
+/*Configuração de fonte para itálico para a classe whatsnewleft*/
+.whatsnewleft p{
+  font-style: italic;
+}
+
+/*Configuração da borda para a classe morenews*/
+.morenews span{
+  border: 1px solid black;
+}
+
+/*Configuração da borda, cor de fundo e margem para a classe newsticker*/
+.newsticker{
+  border: 2px solid black;
+  background-color: lightgray;
+  margin-top: 10px;
+}
+
+/*Configuração de modo de exibição das classes newstickerleft e newstickerright*/
+.newstickerleft, .newstickerright{
+  display: inline-block;
+}
+
+/*Configuração de largura e espaçamento para a classe newstickerleft*/
+.newstickerleft{
+  width: 78%;
+  padding-left: 20px;
+}
+
+/*Configuração de largura da classe newstickerright*/
+.newstickerright{
+  width: 18%;
+}
+
+/*Configuração de modo de exibição, borda, largura, margens e decoração de texto para a classe newstickerright*/
+.newstickerright a{
+  display: block;
+  border: 1px solid black;
+  width: 10%;
+  margin-top: 5px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+/*Configuração para a borda, cor de fundo, margem e espaçamento para a classe calendar*/
+.calendar{
+  border: 2px solid black;
+  background-color: lightgray;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/*Configuração de modo de exibição da h2 e p da classe calendarcima */
+.calendarcima h2, .calendarcima p{
+  display: inline;
+}
+
+/*Configuração de espaçamento para a classe calendarcima*/
+.calendarcima{
+  padding-top: 20px;
+}
+
+/*Configuração de flutuação e margem do elemento a para a classe calendarcima*/
+.calendarcima a{
+  float: right;
+  margin-right: 20px;
+}
+
+/*Configuração de flutuação das classes img1, img2 e img3*/
+.img1, .img2, .img3{
+  float: right;
+}
+
+/*Configuração de largura, altura e margem da imagem da classe img1*/
+.img1 img{
+  width:300px;
+  height:290px;
+  margin-top: 5px;
+}
+
+/*Configuração da borda e largura da classe img2*/
+.img2{
+  border: 2px solid black;
+  width: 300px;
+}
+
+/*Configuração do modo de exibição da imagem e h2 da classe img2*/
+.img2 img, .img2 h2{
+  display: inline;
+}
+
+/*Configuração de largura, altura e espaçamento da imagem da classe img2*/
+.img2 img{
+  width: 200px;
+  height: 125px;
+  padding: 3px;
+}
+
+/*Configuração de flutuação e espaçamento do h2 das classes img2 e img3*/
+.img2 h2, .img3 h2{
+  float: right;
+  padding-right: 20px;
+}
+
+/*Configuração de margem, borda e largura da classe img3*/
+.img3{
+  margin-top: 25px;
+  border: 2px solid black;
+  width: 300px;
+}
+
+/*Configuração do modo de exibição do h2 e img da classe img3*/
+.img3 img, .img3 h2{
+  display: inline;
+}
+
+/*Configuração de largura, altura e espaçamento da imagem da classe img3*/
+.img3 img{
+  width: 200px;
+  height: 125px;
+  padding: 3px;
+}
+
+/*Configuração de borda e margem do rodapé*/
+footer{
+  border-top: 2px solid black;
+  margin-top: 30px;
+}
+
+/*Configuração do modo de exibição do rodapé na lista, elemento a e parágrafo*/
+footer ul, footer a, footer p{
+  display: inline;
+}
+
+/*Configuração do modo de exibição do rodapé na lista*/
+footer ul li{
+  display: inline;
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
+
+/*Configuração da flutuação do parágrafo do rodapé*/
+footer p{
+  float: right;
+}
+
+/*Configuração do espaçamento da lista do rodapé*/
+footer ul{
+  padding-right: 400px;
+}
