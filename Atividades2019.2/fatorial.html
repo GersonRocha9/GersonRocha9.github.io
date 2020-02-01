@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <!--<button onclick="alert(fatorial(4))">Calcula Fatorial</button>-->
+
+
+  <script>
+  var fatorial = prompt('Digite o numero')
+  function fatorial(fatorial)
+  {
+
+      if(fatorial<0)
+      {
+
+        return 'fatorial deve ser maior ou igual a zero';
+
+      } else if ( (fatorial == 0) || (fatorial == 1) ) {
+
+        return 1;
+
+      } else {
+
+        var acumula = 1;
+        for(x=fatorial;x>1;x--) {
+          acumula = acumula * x;
+        }
+        return acumula;
+      }
+
+  }
+
+  alert("Valor do fatorial: " + acumula);
+
+
+  </script>
+
+</body>
+</html>
