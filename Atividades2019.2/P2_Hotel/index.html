@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário de cálculo para o Hotel</title>
+    <script type="text/javascript" src="index.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <form class="formulario" action="index.html" method="post">
+          <label for="Nome">Nome:</label>
+          <input id="nome" type="text" value=""><br><br>
+          <label for="Telefone">Telefone:</label>
+          <input id="Telefone" type="text" value=""><br><br>
+          <label for="data-chegada">Data de chegada:</label>
+          <input id="data-chegada" type="date" value=""><br><br>
+          <label for="data-saida">Data de saída:</label>
+          <input id="data-saida" type="date" value=""><br><br>
+          <label for="Quartos">Tipo de quarto? Single (R$ 139,00), Double(R$ 220,00), Triple(R$ 340,00) - Digite apenas o nome do quarto:</label>
+          <input id="Quartos" type="text" name="Quartos" value=""><br><br>
+          <label for="Criancas">Quantas crianças são menores de 5 anos (cada criança tem um adicional que custa R$ 30,00 a mais por noite)?:</label>
+          <input id="Criancas" type="text" name="Criancas" value=""><br><br>
+          <input type="submit" name="Enviar" value="Enviar" onclick="Calculo();">
+          <input type="reset" name="Limpar" value="Limpar">
+    </form>
+  </body>
+</html>
