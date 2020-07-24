@@ -1,3 +1,1 @@
-# GersonRocha9.github.io
-
-Códigos da Matéria de Hipermidias no curso de Sistemas de Informação no Instituto Federal Fluminense
+Repositório com códigos da Matéria de Hipermidias no curso de Sistemas de Informação no Instituto Federal Fluminense, ministrado pelo professor Ronaldo
